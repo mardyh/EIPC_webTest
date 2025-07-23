@@ -108,7 +108,7 @@ thing("Yo.");
 			{
 				let cell = vec_cells[col][row];
 				// example: uniform rightward flow
-				cell.xv       = 100.0;
+				cell.xv       = 40.0;
 				cell.yv       = 0.0;
 				cell.pressure = 0.0;
 				cell.locked = true; //flag initial state as locked (no damping)
